@@ -42,7 +42,6 @@ ul {
     padding: 0 20px;
 }
 
-/* Navbar */
 .navbar {
     position: fixed;
     top: 0;
@@ -131,7 +130,6 @@ ul {
     color: var(--dark-bg);
 }
 
-/* Hero Section */
 .hero {
     height: 100vh;
     display: flex;
@@ -185,7 +183,6 @@ ul {
     justify-content: center;
 }
 
-/* Animations */
 .animate-up {
     opacity: 0;
     transform: translateY(30px);
@@ -202,7 +199,6 @@ ul {
     }
 }
 
-/* Sections General */
 .section {
     padding: 100px 0;
 }
@@ -222,7 +218,6 @@ ul {
     font-size: 1.1rem;
 }
 
-/* About Section */
 .about-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -339,7 +334,6 @@ ul {
     font-size: 0.8rem;
 }
 
-/* CTA Section */
 .cta {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
     text-align: center;
@@ -364,7 +358,6 @@ ul {
     font-size: 1.1rem;
 }
 
-/* Contact Section */
 .contact-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -459,7 +452,6 @@ ul {
     font-family: inherit;
 }
 
-/* Footer */
 footer {
     padding: 30px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
@@ -483,7 +475,6 @@ footer {
     color: var(--accent-color);
 }
 
-/* Responsive */
 @media (max-width: 992px) {
     .services-grid {
         grid-template-columns: repeat(2, 1fr);

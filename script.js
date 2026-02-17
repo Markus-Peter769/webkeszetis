@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
@@ -16,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Navbar scroll effect
     const navbar = document.querySelector('.navbar');
     
     window.addEventListener('scroll', () => {
@@ -29,15 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Mobile Menu Toggle (Simple implementation)
-    const hamburger = document.querySelector('.hamburger');
-    // Note: To make this fully functional, we'd need to add a mobile menu container in HTML
-    // For now, let's just log or add a basic alert if clicked to show interactivity
-    // Or simpler: let's toggle a class on a mobile menu if it existed.
-    // Given the current HTML structure, we hid nav-links on mobile.
-    // Let's add a class to body or nav to show links if we want a mobile menu.
-    
-    // For this deliverable, we'll keep it simple:
+    const hamburger = document.querySelector('.hamburger');    
     hamburger.addEventListener('click', () => {
         alert('Mobil menü megnyitása... (Ez egy demó funkció)');
     });
