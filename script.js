@@ -26,9 +26,4 @@ document.addEventListener('DOMContentLoaded', () => {
             navbar.style.background = 'rgba(26, 26, 46, 0.95)';
         }
     });
-
-    const hamburger = document.querySelector('.hamburger');    
-    hamburger.addEventListener('click', () => {
-        alert('Mobil menü megnyitása... (Ez egy demó funkció)');
-    });
 });

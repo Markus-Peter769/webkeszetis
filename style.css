@@ -280,7 +280,6 @@ ul {
     font-size: 0.95rem;
 }
 
-/* Services Section */
 .services-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
